@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700|Montaga:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Oswald:100,200,300,400,500,600,700|Montaga:100,200,300,400,500,600,700|Cormorant+Garamond:100,200,300,400,500,600,700');
+
 
 body{
     margin:0;
@@ -6,13 +7,15 @@ body{
     border:0;
     color:#fff;
 }
+/*-----------------------------Home---------------*/
 
-.logo, .nav a, .social i{
+/*-----------------------------Nav---------------*/
+.logo a, .nav a, .social i{
     color:#fff;
     line-height: 40px;
 }
 
-.logo{
+.logo a{
     font-family:"Oswald", sans-serif;
     font-size:30px;
     letter-spacing: 2px;
@@ -26,4 +29,98 @@ body{
 
 .social i{
     font-size:25px;
+}
+
+.logo a:hover, .nav a:hover, .social i:hover{
+    color:orange;
+    text-decoration: none;
+}
+
+.logo-sm{
+    font-family:"Oswald", sans-serif;
+    font-size:30px;
+    letter-spacing: 2px;
+    font-weight: 600; 
+}
+
+.logo-sm a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.logo-sm a:hover{
+    color:orange;
+}
+
+.logo-text, .menu-sm{
+    line-height:40px;
+}
+
+.drop-sm{
+    line-height: 20px;
+}
+
+
+.menu-sm button{
+    font-family:"Oswald", sans-serif;
+    letter-spacing: 2px;  
+}
+
+.menu-sm:hover{
+    color:orange;
+}
+
+.drop-sm a{
+    font-family:"Roboto", sans-serif;
+    font-size:12px;
+    color:#fff;
+}
+
+.drop-sm a:hover{
+    color:orange;
+}
+
+/*-----------------------------Landing---------------*/
+.home-bg{
+    background:url("../media/photo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height:100vh;
+    width:100vw;
+}
+
+.home-text-one, .home-text-two{
+    font-family:"Cormorant Garamond", sans-serif;
+    background-color:rgba(1, 1, 1, .1);
+    height:50vh;
+    text-align:center;
+    padding-top:10vh;
+}
+
+.home-text-one h5, .home-text-two h5{
+    font-size:3vw;
+    
+}
+
+.home-text-two{
+    margin-top:120px;
+}
+
+.home-textsm-one, .home-textsm-two{
+    font-family:"Cormorant Garamond", sans-serif;
+    background-color:rgba(1, 1, 1, .1);
+    height:50vh;
+    text-align:center;
+    padding-top:10vh;
+}
+
+.home-textsm-one h5, .home-textsm-two h5{
+    font-size:30px;
+    
+}
+
+.home-textsm-two{
+    margin-top:120px;
 }
