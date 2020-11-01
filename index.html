@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.google.com/">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <title>Olawale</title>
@@ -13,7 +16,7 @@
 <body>
    <div class="container-fluid bg-info">
         <div class="row">
-            <div class="col-4 logo bg-dark logo text-center d-none d-sm-none d-md-inline d-lg-inline">OS</div>
+            <div class="col-4 logo bg-dark logo text-center d-none d-sm-none d-md-inline d-lg-inline"><a href="#">OS</a></div>
             <div class="col-4 nav bg-primary nav d-flex justify-content-around">
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline">Home</a>
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline">Resume</a>
@@ -29,22 +32,52 @@
         <div class="row d-block d-sm-block d-md-none d-lg-none">
             <div class="col">
                 <div class="row">
-                    <div class="col-6 bg-warning">
-                        <a href="#">OS</a>
+                    <div class="col-6 bg-warning logo-sm">
+                        <a href="#" class="logo-text">OS</a>
                     </div>
-                    <div class="col-6 bg-danger">
-                        <div class="btn-group dropleft">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropleft
+                    <div class="col-6 bg-danger d-flex justify-content-end">
+                        <div class="btn-group dropleft menu-sm">
+                            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menu
                             </button>
-                            <div class="dropdown-menu">
-                                <a href="#">Home</a>
+                            <div class="dropdown-menu drop-sm bg-dark">
+                                <a class="dropdown-item" href="#">Home</a>
+                                <a class="dropdown-item" href="#">Resume</a>
+                                <a class="dropdown-item" href="#">Contact</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                                <a class="dropdown-item" href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+   </div>
+
+   <div class="home-bg">
+   </div>
+
+   <div class="home-text-one d-none d-sm-none d-md-block d-lg-block">
+        <h1>I'm Ola Sal</h1>
+        <h5>I am experienced in Program Management, Change Management & Fullstack Web Development</h5>
+   </div>
+
+   <div class="home-text-two d-none d-sm-none d-md-block d-lg-block">
+        <h5>I have over a decade of experience delivering complex programs in Healthcare, Retail, Telecommunications & Finance Industries.</h5>
+   </div>
+
+   <div class="home-textsm-one d-block d-sm-block d-md-none d-lg-none">
+        <h1>I'm Ola Sal</h1>
+        <h5>I am experienced in Program Management, Change Management & Fullstack Web Development</h5>
+   </div>
+
+   <div class="home-textsm-two d-block d-sm-block d-md-none d-lg-none">
+        <h5>I have over a decade of experience delivering complex programs in Healthcare, Retail, Telecommunications & Finance Industries.</h5>
+   </div>
+
+   <div class="home-bg">
    </div>
     
 </body>
