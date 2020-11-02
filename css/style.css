@@ -7,6 +7,10 @@ body{
     border:0;
     color:#fff;
 }
+
+.main{
+    background-color:black;
+}
 /*-----------------------------Home---------------*/
 
 /*-----------------------------Nav---------------*/
@@ -82,6 +86,7 @@ body{
 
 /*-----------------------------Landing---------------*/
 .home-bg{
+    background-color:#000;
     background:url("../media/photo.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -91,36 +96,50 @@ body{
     width:100vw;
 }
 
-.home-text-one, .home-text-two{
+.home-text{
     font-family:"Cormorant Garamond", sans-serif;
-    background-color:rgba(1, 1, 1, .1);
-    height:50vh;
+    background-color:transparent;
+    height:100vh;
+    text-align:center;
+    color:#fff;
+}
+
+.home-text h5{
+    font-size:3vw;   
+}
+
+.home-text h1{
+    margin-top:45vh;
+    color:orange;
+    font-weight: 600;
+    font-family:"Oswald",sans-serif;
+}
+
+.line{
+    border:2px solid orange;
+    border-radius:2px;
+    width:50vw;
+}
+
+.home-text-sm{
+    font-family:"Cormorant Garamond", sans-serif;
+    background-color:transparent;
+    height:100vh;
     text-align:center;
     padding-top:10vh;
 }
 
-.home-text-one h5, .home-text-two h5{
-    font-size:3vw;
-    
+.home-text-sm{
+    font-size:30px;  
 }
 
-.home-text-two{
-    margin-top:120px;
+.home-text-sm h5{
+    color:#fff;  
 }
 
-.home-textsm-one, .home-textsm-two{
-    font-family:"Cormorant Garamond", sans-serif;
-    background-color:rgba(1, 1, 1, .1);
-    height:50vh;
-    text-align:center;
-    padding-top:10vh;
-}
-
-.home-textsm-one h5, .home-textsm-two h5{
-    font-size:30px;
-    
-}
-
-.home-textsm-two{
-    margin-top:120px;
+.home-text-sm h1{
+    margin-top:20vh;
+    color:orange;
+    font-weight: 600;
+    font-family:"Oswald",sans-serif;
 }
