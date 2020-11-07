@@ -96,7 +96,29 @@ body{
     width:100vw;
 }
 
+.home-bg h5{
+    padding-top:40vh;
+    font-family:"Exo", sans-serif;
+    color:orange;
+    font-weight:500;
+}
+
+.home-bg h1{
+    font-family:"Oswald", sans-serif;
+    color:#fff;
+    font-weight:700;
+    font-size:35px;
+}
+
+.home-bg h5, .home-bg h1{
+    padding-left:5vw;
+}
+
 .home-text{
+    background:url("../media/bgpic.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
     font-family:"Cormorant Garamond", sans-serif;
     background-color:transparent;
     height:100vh;
@@ -108,11 +130,8 @@ body{
     font-size:3vw;   
 }
 
-.home-text h1{
-    margin-top:45vh;
-    color:orange;
-    font-weight: 600;
-    font-family:"Oswald",sans-serif;
+.home-text div{
+    padding-top:30vh;
 }
 
 .line{
@@ -122,6 +141,10 @@ body{
 }
 
 .home-text-sm{
+    background:url("../media/bgpic.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
     font-family:"Cormorant Garamond", sans-serif;
     background-color:transparent;
     height:100vh;
@@ -137,9 +160,128 @@ body{
     color:#fff;  
 }
 
-.home-text-sm h1{
-    margin-top:20vh;
+.home-text-sm div{
+    padding-top:20vh;
+}
+
+/*---------------------Contact css-----*/
+.contact-main, .contact-main-med{
+    height: 100vh;
+}
+
+.contact-main h1{
+    font-family:"Oswald", 'Courier New', Courier, monospace;
+    font-weight:900;
+    font-size:6vw;
+    color:white;
+    text-align:center;
+    padding-top:30vh;
+}
+
+.contact-font {
+    font-family: "montaga", sans-serif;
+    color:orange;
+    font-size:2.5vw;
+}
+
+.contact-font span {
+    color:white;  
+}
+
+.contact-details h6{
+    font-family:"Exo", 'Courier New', Courier, monospace;
+    font-weight:900;
+    font-size:3vw;
+    color:white;
+}
+
+.map{
+    width:96vw;
+}
+
+.exclamation{
+    color:orange;
+}
+
+.contact-icon{
+    color:orange;
+}
+
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  /*margin-top:30px;
+  padding-top:15px;*/
+  color: #222;
+  font-family: "Roboto", Arial, sans-serif;
+  height: 100vh;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid orange;
+  top: 0;
+  font-family:"Oswald", 'Courier New', Courier, monospace;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: white;
+  font-size:6vw;
+}
+
+.animated-title > div.text-top div span {
+  color: white;
+  font-size:6vw;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+  color:orange;
+  font-family:"Oswald", 'Courier New', Courier, monospace;
+  font-size:6vw;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}
+
+.details{
+    margin-top:110vh;
+}
+
+.contact-detail{
     color:orange;
     font-weight: 600;
-    font-family:"Oswald",sans-serif;
 }
