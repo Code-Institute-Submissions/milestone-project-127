@@ -182,11 +182,13 @@ body{
 .contact-font {
     font-family: "montaga", sans-serif;
     color:orange;
-    font-size:2.5vw;
+    font-size:3vw;
 }
 
-.contact-font span {
-    color:white;  
+.email, .mobile{
+    font-size:2.5vw;
+    font-weight: bolder;
+    color:#fff;
 }
 
 .contact-details h6{
@@ -196,13 +198,6 @@ body{
     color:white;
 }
 
-.map{
-    width:96vw;
-}
-
-.contact-icon{
-    color:orange;
-}
 
 @keyframes showTopText {
   0% { transform: translate3d(0, 100%, 0); }
@@ -216,8 +211,6 @@ body{
 .animated-title {
   /*margin-top:30px;
   padding-top:15px;*/
-  color: #222;
-  font-family: "Roboto", Arial, sans-serif;
   height: 100vh;
   left: 50%;
   position: absolute;
@@ -225,25 +218,30 @@ body{
   transform: translate(-50%, -50%);
   width: 90vw;
 }
+
 .animated-title > div {
   height: 50%;
   overflow: hidden;
   position: absolute;
   width: 100%;
 }
+
 .animated-title > div div {
-  font-size: 12vmin;
+  
   padding: 2vmin 0;
   position: absolute;
 }
+
 .animated-title > div div span {
   display: block;
 }
+
 .animated-title > div.text-top {
   border-bottom: 1vmin solid orange;
   top: 0;
   font-family:"Oswald", 'Courier New', Courier, monospace;
 }
+
 .animated-title > div.text-top div {
   animation: showTopText 1s;
   animation-delay: 0.5s;
@@ -251,21 +249,24 @@ body{
   bottom: 0;
   transform: translate(0, 100%);
 }
+
 .animated-title > div.text-top div span:first-child {
-  color: white;
+  color: #fff;
   font-size:6vw;
 }
 
 .animated-title > div.text-top div span {
-  color: white;
+  color: #fff;
   font-size:6vw;
 }
+
 .animated-title > div.text-bottom {
   bottom: 0;
   color:orange;
   font-family:"Oswald", 'Courier New', Courier, monospace;
-  font-size:6vw;
+  font-size:4vw;
 }
+
 .animated-title > div.text-bottom div {
   animation: showBottomText 0.5s;
   animation-delay: 1.75s;
@@ -284,13 +285,11 @@ body{
     font-weight: 600;
 }
 
-.personal{
-    margin-top:10vh;
+.mobile-email{
+    margin-top:130px;
+    margin-bottom:50px;
 }
 
-.email-mobile-sm{
-    margin-top:50px;
-}
 /*---------------------Resume css----------------*/
 .resume{
   background-color:black;
