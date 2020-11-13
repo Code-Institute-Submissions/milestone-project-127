@@ -47,13 +47,14 @@ body{
     font-weight: 600; 
 }
 
+
 .logo-sm a{
-    text-decoration:none;
     color:#fff;
 }
 
 .logo-sm a:hover{
     color:orange;
+    text-decoration:none;
 }
 
 .logo-text, .menu-sm{
@@ -131,13 +132,13 @@ body{
 }
 
 .home-text div{
-    padding-top:30vh;
+    padding-top:25vh;
 }
 
-.line{
-    border:2px solid orange;
-    border-radius:2px;
-    width:50vw;
+.divider{
+    background-color:orange;
+    width:80vw;
+    height:1vh;
 }
 
 .home-text-sm{
@@ -197,10 +198,6 @@ body{
 
 .map{
     width:96vw;
-}
-
-.exclamation{
-    color:orange;
 }
 
 .contact-icon{
@@ -278,7 +275,8 @@ body{
 }
 
 .details{
-    margin-top:110vh;
+    max-height: 70vh;
+    margin-top:120vh;
 }
 
 .contact-detail{
@@ -286,7 +284,13 @@ body{
     font-weight: 600;
 }
 
+.personal{
+    margin-top:10vh;
+}
 
+.email-mobile-sm{
+    margin-top:50px;
+}
 /*---------------------Resume css----------------*/
 .resume{
   background-color:black;
@@ -315,7 +319,7 @@ body{
 
 .experience-sm{ 
   height: 40vh;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid orange;
 }
 
 .experience-sm h1{
@@ -323,6 +327,7 @@ body{
   font-family:"Oswald", sans-serif;
   font-weight:700;
   font-size:8vw;
+  color:orange;
   position: relative;
   animation: smallres 3s 1;
   animation-delay: 0s;
@@ -378,6 +383,7 @@ body{
   text-align:center;
   font-family:"Exo",sans-serif;
   font-weight:600;
+  color:#fff;
   letter-spacing: 2px;
   font-size:15px;
   position: relative;
