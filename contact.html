@@ -14,15 +14,15 @@
     <title>Olawale</title>
 </head>
 <body class="main">
-   <div class="container-fluid bg-info">
+   <div class="container-fluid">
         <div class="row">
-            <div class="col-4 logo bg-dark logo text-center d-none d-sm-none d-md-inline d-lg-inline"><a href="#">OS</a></div>
-            <div class="col-4 nav bg-primary nav d-flex justify-content-around">
+            <div class="col-4 logo logo text-center d-none d-sm-none d-md-inline d-lg-inline"><a href="#">OS</a></div>
+            <div class="col-4 nav nav d-flex justify-content-around">
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline">Home</a>
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline">Resume</a>
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline">Contact</a>
             </div>
-            <div class="col-4 social bg-secondary social d-flex justify-content-around">
+            <div class="col-4 social social d-flex justify-content-around">
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline"><i class="fab fa-linkedin"></i></a>
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline"><i class="fab fa-twitter-square"></i></a>
                 <a href="#" class="d-none d-sm-none d-md-inline d-lg-inline"><i class="fab fa-facebook-square"></i></a>
@@ -32,15 +32,15 @@
         <div class="row d-block d-sm-block d-md-none d-lg-none">
             <div class="col">
                 <div class="row">
-                    <div class="col-6 bg-warning logo-sm">
+                    <div class="col-6 logo-sm">
                         <a href="#" class="logo-text">OS</a>
                     </div>
-                    <div class="col-6 bg-danger d-flex justify-content-end">
-                        <div class="btn-group dropleft menu-sm">
-                            <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="btn-group dropleft">
+                            <button type="button" class="btn btn-transparent dropdown-toggle text-light" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Menu
                             </button>
-                            <div class="dropdown-menu drop-sm bg-dark">
+                            <div class="dropdown-menu bg-dark drop-sm">
                                 <a class="dropdown-item" href="#">Home</a>
                                 <a class="dropdown-item" href="#">Resume</a>
                                 <a class="dropdown-item" href="#">Contact</a>
@@ -54,71 +54,65 @@
                 </div>
             </div>
         </div>
-   </div>
+    </div>
 
    <section>
-        <div>
-                
-            <div class="animated-title d-flex justify-content-center mt-5"><!--Core code for this animationa was copied from freefrontend.com and was edited to suit-->
-                        <div class="text-top d-flex justify-content-center">
-                            <div>
-                                <span class="text-center">Let's make magic</span>
-                                <span class="text-center">together!</span>
-                            </div>
-                        </div>
-                        <div class="text-bottom d-flex justify-content-center">
-                            <div>Contact me below...</div>
-                        </div>
+        <div>      
+            <div class="animated-title d-flex justify-content-center mt-5">
+                <div class="text-top d-flex justify-content-center">
+                    <div>
+                        <span class="text-center">Let's make magic</span>
+                        <span class="text-center">together!</span>
+                    </div>
+                </div>
+                <div class="text-bottom d-flex justify-content-center">
+                    <div>Contact me below...</div>
+                </div>
             </div>
+        </div>
 
-            <div class="row pr-3 pl-3 details"><!--Core code for this form was copied from getbootstrap.com and was edited to suit-->
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <form class="row">
-                                <div class="col-12 form-group">
-                                    <label for="name" class="contact-detail">Full Name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="John Doe" aria-describedby="visitorName">
-                                </div>
+        <div class="row pr-3 pl-3 details bg-danger">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <form class="row">
+                    <div class="col-12 form-group">
+                        <label for="name" class="contact-detail">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="John Doe" aria-describedby="visitorName">
+                    </div>
 
-                                <div class="col-12 form-group">
-                                    <label for="Email" class="contact-detail">Email address</label>
-                                    <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
+                    <div class="col-12 form-group">
+                        <label for="Email" class="contact-detail">Email address</label>
+                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
 
-                                <div class="col-12 form-group">
-                                    <label for="address" class="contact-detail">Business Address</label>
-                                    <input type="text" class="form-control" id="address"  aria-describedby="visitorAddress">
-                                </div>
-                            </form>   
-                        </div> 
-                        <div class="col-sm-12 col-md-12 col-lg-6">
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1"></label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please tell me more about your idea..." rows="9"></textarea>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="col-12 form-group">
+                        <label for="address" class="contact-detail">Business Address</label>
+                        <input type="text" class="form-control" id="address"  aria-describedby="visitorAddress">
+                    </div>
+                </form>   
+            </div> 
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please tell me more about your idea..." rows="9"></textarea>
+                    </div>
+                </form>
             </div>
+        </div>
+
+        
                    
-            <div class="row mr-3 ml-3">
-                        <div class="col">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
-                                <i class="fas fa-tty contact-font"><span> 00 353 89 203 1052</span></i>
-                                </div>
-                                <div class="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-center">
-                                <i class="fas fa-envelope-open-text contact-font"><span> axyz340@yahoo.com</span></i>
-                                </div>
-                            </div>
-                        </div>
-            </div>
-
-            <div class="mt-3 d-flex justify-content-center mb-5"><!--Core code for this map was copied from googlemap.com and was edited to suit-->
-                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d309544.00979662937!2d-7.0872828091302935!3d52.
-                            690450287326655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485d5a126b7eb365%3A0x400c7a72e2a7660!2sCarlow%2C%20Co.
-                            %20Carlow!5e0!3m2!1sen!2sie!4v1602237661566!5m2!1sen!2sie" width="700" height="450" frameborder="0" style="border:0;" 
-                            allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="row d-none mr-3 ml-3 bg-primary email-mobile">
+            <div class="col">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+                        <i class="fas fa-tty contact-font"><span> 00 353 89 203 1052</span></i>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+                        <i class="fas fa-envelope-open-text contact-font"><span> axyz340@yahoo.com</span></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
