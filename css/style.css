@@ -199,26 +199,35 @@ body{
 
 .contact-font {
     color:orange;
-    font-size:3.5vw;
+    font-size:30px;
     width:100%;
-    margin:2vmin;
+    text-align:center;
+    padding-top:15px;
     
 }
 
 .contact-font-sm  {
     color:orange;
     font-size:5vw;
-    margin-top:4vh;
-    margin-left:4vh;
-    position: relative;
+    padding-top:3vh;
+    padding-left:5.5vw;
+    text-align:center;
 }
 
 .new-contact h3, .new-contact h5{
     font-family:"Oswald",sans-serif;
 }
 
+.new-contact h3{
+    color:#fff
+}
+
 .new-contact{
     margin-top:104vh;
+}
+
+#first-name, #last-name, #email, #description{
+    width:350px;
 }
 
 .email, .mobile{
