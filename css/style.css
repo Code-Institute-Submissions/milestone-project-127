@@ -138,7 +138,7 @@ body{
 .divider{
     background-color:orange;
     width:80vw;
-    height:1vh;
+    height:0.5vh;
 }
 
 .home-text-sm{
@@ -387,7 +387,7 @@ body{
   font-size:4vw;
   width:50vw;
   position: relative;
-  animation: mymove 3s infinite;
+  animation: mymove 3s 1;
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -451,7 +451,7 @@ body{
   background-color: black;
   font-weight: 700;
   position: relative;
-  animation: exp 2s infinite;
+  animation: exp 2s 1;
   animation-fill-mode: forwards;
 }
 
@@ -547,4 +547,31 @@ body{
 @keyframes expsmfive {
   from {top: 0vh;}
   to {top: 13vh;}
+}
+
+.download-btn{
+    background-color: orange;
+    color:#fff;
+    width:50vw;
+    border-radius:5px;
+}
+
+.download-btn i{
+    color:#fff;
+    width:100%;
+    height: 100%;
+}
+
+.download-btn i:hover{
+    background-color: #fff;
+    color:orange;
+}
+
+.download-btn:hover{
+    background-color: #fff;
+    color:orange;
+}
+
+.download-container{
+    background-color:#000;
 }
