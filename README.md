@@ -1,41 +1,98 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Ola Sal CV
+This is an online professional portfolio for Olawale Salabiu. The purpose of this online portfolio is essentially to project his skills & experience in Project Management, Change Managementand Fullstack Web development to potential clients needing professional services in the areas of his skill-set and experience. With over a decade of experience managing complext IT project in diverse industries, Ola is using this online resume to further project.
 
-Welcome olawaleyusuff,
+# UX 
+    This online portfolio is specifically tailored to cater for the need of businesses and organisations requiring the services of professionals similar to Ola's.
+    
+    User Stories:
+    As an employer, I want to meet a prospective employee digitally, so I can create some sort of virtual professional connection in my further conversation with a prospective employee.
+    As an employer, I want to know about prospective employee skills, so that I can determine if suitable for an open position.
+    An an employer, I want to have direct contact to the prospective employee, so that I can be able to contact prospective employee directly, if need be.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# Features
 
-## Gitpod Reminders
+# Existing Features
+## Home page:
+    Home - The home link introduces Ola to the site visitors with Ola's personal picture.
+    Parallax - Parallax was used in the home page to briefly introduce Ola and his skills to site visitors
+    Social links - Social links for LinkedIn, Facebook & Twitter is presented at the top of the home page to encourage social engagement with site visitors.
+## Resume Page:
+    The resume link on the home page allows potential to clients quickly have access Ola's skill and expereince.
+    The resume page consist of a brief explanation of Ola's expertise and skills.
+    The resume page also give the site visitor the option to download a PDF format of the CV.
+## Contact Page:
+    This page invites potential clients to make contact in order to discuss their ideas.
+    Ola's contact details such moblie number, email address, location address are presented here to ensure easy access for further discussion.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Technologies Used
+    html5:
+    This project used html5 to display and structure the core content for this website.
 
-`python3 -m http.server`
+    css:
+    This project used css to further style the html content of the site.
+    Further animation was applied to the social link icons and other elements of this project with the aid of CSS.
 
-A blue button should appear to click: *Make Public*,
+    Bootstrap:
+    This project used Boostrap via the Content Delivery Network (CDN) to further style site content.
+    Boostrap was used to enable the website responsiveness.
+    Bootstrap link:https://getbootstrap.com/
 
-Another blue button should appear to click: *Open Browser*.
+    Googlefonts:
+    This project used Googlefonts via the Content Delivery Network (CDN)
+    Googlefonts was used to select suitable fonts for this project.
+    Googlefonts link:https://fonts.google.com/
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    Font Awesome:
+    This project used Font Awesome via the Content Delivery Network (CDN)
+    Font awesome icons was used to further enhance the look of some of the element on the website. e.g. social links, areas of experience etc.
+    Font Awesome link:https://fontawesome.com/
 
-A blue button should appear to click: *Make Public*,
+    Testing
+    Home:
+    Logo - When clicked on takes site visitor to back to the home page.
+    Social links - When clicked on take users to the corresponding social link of Ola Sal e.g LinkedIn, Twitter etc.
+    Social links - When hovered, font color chnages encourage visitor's focus.
+    parallax - Upon scroll, brief explanation of Ola's skills and experience appears on the home page.
 
-Another blue button should appear to click: *Open Browser*.
+    Resume Link:
+    When clicked on, it take visitor to the resume page.
+    Animation - Animation effect was used to display expertiseand skills on the resume page.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+    Contact Link:
+    When clicked on, the website navigates to the contact page where users will find:
+        - A form to further describe their ideas or make further enquiry.
+        - Ola's mobile number and email address, this gives visitors more options to contact Ola.
+        - Ola contact details is also displayed on this page.
 
-## Updates Since The Instructional Video
+# Deployment
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+    GitHub Deployment:
+    This website deployed on GitHub pages by following the steps below:
+        - visited personal GitHub account.
+        -clicked on settings.
+        -clicked on GitHub pages.
+        -Master branch was chosen.
+        - A web link was then supplied by GitHub.
+        - The link provided by GitHub pages once pasted into the address bar brings one to this website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed along with other common files.
+# Credits
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    Content:
+    All text on this online resume are personal information, hence was provided by Ola.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    html / CSS:
+    This project was built using Code Institute template.
+    Emmet Abreviation was used to get HTML boiler plate.
+    The knowledge of animation used on the resume and cotact page was derived from w3schools (https://www.w3schools.com/) 
+    The knowledge of animation used on the resume and cotact page was derived from w3schools (https://www.w3schools.com/) 
+    Samples from lecture notes from code institue was an helpful guide towards developing this project as a whole.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    Media
+    The photos used for the parallax in the home page was obtained from freestockphotos.com
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Acknowledgements
 
---------
-
-Happy coding!
+    Inspirations
+    I received inspiration for this project from several lectures notes from Code Institute.
+    I also received valuable input and resource advise from my mentor Narendar for this website.
+    This README document was originally from code institute and was edited to suit this project need.
