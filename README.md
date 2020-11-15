@@ -64,6 +64,9 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
         - Ola's mobile number and email address, this gives visitors more options to contact Ola.
         - Ola contact details is also displayed on this page.
 
+    Bugs:
+    Codes were duplicated in some instances to cater for small devices.
+
 # Deployment
 
     GitHub Deployment:
