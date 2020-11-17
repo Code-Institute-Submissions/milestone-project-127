@@ -66,6 +66,7 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
 
     Bugs:
     Codes were duplicated in some instances to cater for small devices.
+    It was difficult dealing with the auto margins applied by the browsers.
 
 # Deployment
 
