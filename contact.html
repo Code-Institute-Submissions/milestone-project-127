@@ -139,23 +139,21 @@
             </div>
         </div>
 
-        <div class="row contact-form">
-            <div class="col-sm-12 col-md-6 col-lg-6 bg-light">
-                <form class="form-container">
-                    <label for="first-name"><h6>First name:</h6></label><br>
-                    <input type="text" id="first-name" name="first-name" value="Ola"><br>
-                    <label for="last-name"><h6>Last name:</h6></label><br>
-                    <input type="text" id="last-name" name="last-name" value="Sal"><br>
-                    <label for="email"><h6>Email:</h6></label><br>
-                    <input type="email" id="email" name="email" value="axyz340@yahoo.com"><br>
-                    <label for="description"><h6>Description:</h6></label><br>
-                    <textarea type="description" id="description" name="email" placeholder="Tell me more..."></textarea><br><br>
-                    <button type="submit" value="Submit">Shoot!</button>
-                </form> 
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 contact-photo bg-dark">
-            </div>
+        <div class="container bg-dark mt-5 mb-5">
+            <form>
+                <label for="firstn" id="firstn">First Name</label>
+                <input type="text" id="first-name" name="firstname" placeholder="Ola">
+
+                <label for="lastn" id="lastn">Last Name</label>
+                <input type="text" id="last-name" name="lastname" placeholder="Sal">
+
+                <label for="description" id="desc">Subject</label>
+                <textarea id="description" name="description" placeholder="Tell me more..." style="height:200px"></textarea>
+
+                <input class="shoot" type="submit" value="Shoot!">
+            </form>
         </div>
+
 
     </section>
 </body>

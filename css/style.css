@@ -166,19 +166,6 @@ body{
 }
 
 /*--------------------------------Contact Page css----------------------*/
-.contact-main, .contact-main-med{
-    height: 100vh;
-}
-
-.contact-main h1{
-    font-family:"Oswald", 'Courier New', Courier, monospace;
-    font-weight:900;
-    font-size:6vw;
-    color:white;
-    text-align:center;
-    padding-top:30vh;
-}
-
 
 .font-container{
     height:120px;
@@ -226,47 +213,42 @@ body{
     margin-top:110vh;
 }
 
-#first-name, #last-name, #email, #description{
-    width:99%;
-    margin-bottom:10px;
+#first-name, #last-name, #description {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-#description{
-    height:40vh;
-}
-
-.form-container{
-    padding-top:8vh;
-}
-
-.form-container h6{
+#firstn, #lastn, #desc{
     font-family:"Oswald",sans-serif;
-    font-weight:600;
-    color:orange; 
-    margin-bottom:-5px;
+    color:orange;
 }
 
-.form-container button{
-    background-color:orange;
-    color:white;
-    font-weight: bold;
-    border: 1px solid orange;
-    border-radius:5px;
-    margin-bottom:10px;
-    width:45vw;
-    padding-top:-20px;
+.shoot {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid none;
+  border-radius: 5px;
+  font-family:"Exo", sans-serif;
 }
 
-.contact-photo{
-    background:url("../media/photo.png");
-    background-size:160%;
-    background-position:center center;
-    background-repeat:no-repeat;
-    position:fixed;
-    height:90vh;
-    width:90%;
+.shoot:hover {
+  background-color: #fff;
+  color:orange;
+  font-family:"Exo", sans-serif;
 }
 
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
 
 /*This code was modified (animation on the contact page) to suit project purpose, the record of the source was misplaced*/
 @keyframes showTopText {
@@ -353,182 +335,7 @@ body{
     font-weight: 600;
 }
 
-.mobile-email{
-    margin-top:130px;
-    margin-bottom:50px;
-}
-
 /*---------------------Resume css----------------*/
-/*.resume{
-  background-color:black;
-  height:100vh;
-  max-width:100vw;
-}
-
-.experience h1{
-  font-family:"Oswald", sans-serif;
-  font-weight:600;
-  padding-top:30vh;
-  color:white;
-  font-size:4vw;
-  width:50vw;
-  position: relative;
-  animation: mymove 3s 1;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-}
-
-
-@keyframes mymove {
-  from {left: 14vw;}
-  to {left: 5vw;}
-}
-
-.experience-sm{ 
-  height: 40vh;
-  border-bottom: 3px solid orange;
-}
-
-.experience-sm h1{
-  text-align: center;
-  font-family:"Oswald", sans-serif;
-  font-weight:700;
-  font-size:8vw;
-  color:orange;
-  position: relative;
-  animation: smallres 3s 1;
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes smallres {
-  from {top: 35vh;}
-  to {top: 25vh;}
-}
-
-.experience-list{
-  height: 60vh;
-}
-
-.experience{
-  margin-top:10vh;
-  height:80vh;
-  width:50vw;
-  background-color:black;;
-  border-right:2px solid orange;
-}
-
-
-.list {
-  font-family:"Exo",sans-serif;
-  letter-spacing: 2px;
-  font-size:20px;
-  max-width:400px;
-  color: orange;
-  background-color: black;
-  font-weight: 700;
-  position: relative;
-  animation: exp 2s 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes exp {
-  from {left: 0vw;}
-  to {left: 7vw;}
-}
-
-.experience-list h3{
-  text-align:center;
-  font-family:"Exo",sans-serif;
-  font-weight:600;
-  color:#fff;
-  letter-spacing: 2px;
-  font-size:15px;
-  position: relative;
-}
-
-
-.first {animation-timing-function: cubic-bezier(0,0,1,1);}
-.second {animation-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
-.third {animation-timing-function: cubic-bezier(0.42,0,1,1);}
-.fourth {animation-timing-function: cubic-bezier(0,0,0.58,1);}
-.fifth {animation-timing-function: cubic-bezier(0.42,0,0.58,1);}
-
-.first{
-  margin-top:33vh;
-}
-
-.skill{
-  height:100vh;
-}
-
-.skill h1{
-  padding-top:43vh;
-  font-family:"Oswald", sans-serif;
-  font-weight:600;
-  font-size:30px;
-}
-.details{
-  height:100vh;
-}
-
-.list-smone h3{
-  animation: expsmone 2s 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes expsmone {
-  from {top: 0vh;}
-  to {top: 5vh;}
-}
-
-.list-smtwo h3{
-  animation: expsmtwo 2s 1;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-}
-
-@keyframes expsmtwo {
-  from {top: 0vh;}
-  to {top: 7vh;}
-}
-
-.list-smthree h3{
-  animation: expsmthree 2s 1;
-  animation-fill-mode: forwards;
-  animation-delay: 3s;
-}
-
-@keyframes expsmthree {
-  from {top: 0vh;}
-  to {top: 9vh;}
-}
-
-.list-smfour h3{
-  animation: expsmfour 2s 1;
-  animation-fill-mode: forwards;
-  animation-delay: 4s;
-}
-
-@keyframes expsmfour {
-  from {top: 0vh;}
-  to {top: 11vh;}
-}
-
-.list-smfive h3{
-  animation: expsmfive 2s 1;
-  animation-fill-mode: forwards;
-  animation-delay: 5s;
-}
-
-@keyframes expsmfive {
-  from {top: 0vh;}
-  to {top: 13vh;}
-}
-*/
-
-
-/*---------------------New Resume css----------------*/
 
 .prog-one h1, .prog-one h5{
     text-align:center;
@@ -542,9 +349,13 @@ body{
     color:#fff;
 }
 
+.prog-sm h1{
+    font-size:30px;
+}
+
 .prog-one h5{
     font-family:"Exo",sans-serif;
-    font-size:25px;
+    font-size:17px;
     color:orange;
 }
 
@@ -601,4 +412,12 @@ body{
 .indicators{
     color:orange;
     position:fixed;
+}
+
+.circle{
+    height: 50px;
+    width:50px;
+    border:1px solid none;
+    border-radius:50%;
+    background-color:#fff;
 }
