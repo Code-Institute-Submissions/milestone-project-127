@@ -263,7 +263,7 @@ body{
     background-position:center center;
     background-repeat:no-repeat;
     position:fixed;
-    height:80vh;
+    height:90vh;
     width:90%;
 }
 
@@ -359,7 +359,7 @@ body{
 }
 
 /*---------------------Resume css----------------*/
-.resume{
+/*.resume{
   background-color:black;
   height:100vh;
   max-width:100vw;
@@ -525,6 +525,32 @@ body{
   from {top: 0vh;}
   to {top: 13vh;}
 }
+*/
+
+
+/*---------------------New Resume css----------------*/
+
+.prog-one h1, .prog-one h5{
+    text-align:center;
+}
+
+.prog-one h1{
+    margin-top:40vh;
+    font-family:"Oswald",sans-serif;
+    font-size:4vw;
+    font-weight:600;
+    color:#fff;
+}
+
+.prog-one h5{
+    font-family:"Exo",sans-serif;
+    font-size:25px;
+    color:orange;
+}
+
+.download{
+    margin-top:60vh;
+}
 
 .download-btn{
     background-color: orange;
@@ -551,4 +577,28 @@ body{
 
 .download-container{
     background-color:#000;
+    margin-left:21vw;
+}
+
+.prog-one-sm h1, .prog-one-sm h5{
+    text-align:center;
+}
+
+.prog-one-sm h1{
+    margin-top:40vh;
+    font-family:"Oswald",sans-serif;
+    font-size:30px;
+    font-weight:600;
+    color:#fff;
+}
+
+.prog-one-sm h5{
+    font-family:"Exo",sans-serif;
+    font-size:14px;
+    color:orange;
+}
+
+.indicators{
+    color:orange;
+    position:fixed;
 }
