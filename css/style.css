@@ -225,7 +225,7 @@ body{
   resize: vertical;
 }
 
-#firstn, #lastn, #desc{
+.firstn, .lastn, .desc{
     font-family:"Oswald",sans-serif;
     color:orange;
 }
