@@ -67,6 +67,7 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
     Bugs:
     Codes were duplicated in some instances to cater for small devices.
     It was difficult dealing with the auto margins applied by the browsers.
+    Hover effect in the menu for small device is not working in google chrome.
 
 # Deployment
 
@@ -77,7 +78,7 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
         -clicked on GitHub pages.
         -Master branch was chosen.
         - A web link was then supplied by GitHub.
-        - The link provided by GitHub pages once pasted into the address bar brings one to this website.
+        - The link provided by GitHub pages once pasted into the address bar brings visitor to this website.
 
 # Credits
 
