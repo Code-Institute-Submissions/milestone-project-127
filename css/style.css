@@ -150,7 +150,14 @@ body{
 }
 
 /*--------------------------------Contact Page css----------------------*/
-
+.contact-img{
+    background: url("../media/cont.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+}
 .font-container{
     height:120px;
     width:120px;
@@ -189,7 +196,15 @@ body{
     font-family:"Oswald",sans-serif;
 }
 
+.new-contact-sm h3, .new-contact-sm h5{
+    font-family:"Oswald",sans-serif;
+}
+
 .new-contact h3{
+    color:#fff
+}
+
+.new-contact-sm h3{
     color:#fff
 }
 
@@ -285,12 +300,12 @@ body{
 }
 
 .animated-title > div.text-top div span:first-child {
-  color: #fff;
+  color: #000;
   font-size:7vw;
 }
 
 .animated-title > div.text-top div span {
-  color: #fff;
+  color: #000;
   font-size:7vw;
 }
 

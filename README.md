@@ -94,7 +94,7 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
     Samples from lecture notes from code institue was an helpful guide towards developing this project as a whole.
 
     Media
-    The photos used for the parallax in the home page was obtained from freestockphotos.com
+    All photos used on the resume page was obtained from pexels.com
 
 # Acknowledgements
 
