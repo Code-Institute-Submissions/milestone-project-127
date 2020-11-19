@@ -52,11 +52,11 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
     Logo - When clicked on takes site visitor to back to the home page.
     Social links - When clicked on take users to the corresponding social link of Ola Sal e.g LinkedIn, Twitter etc.
     Social links - When hovered, font color chnages encourage visitor's focus.
-    parallax - Upon scroll, brief explanation of Ola's skills and experience appears on the home page.
+    
 
     Resume Link:
     When clicked on, it take visitor to the resume page.
-    Animation - Animation effect was used to display expertiseand skills on the resume page.
+    Carousel  - Carousel was used to display expertise and skills on the resume page.
 
     Contact Link:
     When clicked on, the website navigates to the contact page where users will find:
@@ -68,6 +68,7 @@ This is an online professional portfolio for Olawale Salabiu. The purpose of thi
     Codes were duplicated in some instances to cater for small devices.
     It was difficult dealing with the auto margins applied by the browsers.
     Hover effect in the menu for small device is not working in google chrome.
+    Background pictures in resume may take time to load.
 
 # Deployment
 
