@@ -86,8 +86,22 @@ body{
     color:orange;
 }
 
+.home-background {
+  background: url("../media/photo.png");
+  height: 100vh;
+  width:100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.home-bg{
+.home-content{
+    height:30vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*.home-bg{
     background-color:#000;
     background:url("../media/photo.png");
     background-position: center;
@@ -114,6 +128,14 @@ body{
 
 .home-bg h5, .home-bg h1{
     padding-left:5vw;
+}
+
+.content-home {
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 
 .home-text{
@@ -164,7 +186,7 @@ body{
 
 .home-text-sm div{
     padding-top:20vh;
-}
+}*/
 
 /*--------------------------------Contact Page css----------------------*/
 
@@ -288,7 +310,7 @@ body{
 }
 
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid orange;
+  border-bottom: 0.5vmin solid orange;
   top: 0;
   font-family:"Oswald", 'Courier New', Courier, monospace;
 }
@@ -337,6 +359,44 @@ body{
 }
 
 /*---------------------Resume css----------------*/
+/*.program{
+    background-color:black;
+    background:url("../media/program.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    opacity: 0.3;
+}*/
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.content h1{
+    font-family:"Oswald",sans-serif;
+    text-align:center;
+    color:orange;
+}
+
+.content li{
+    font-size:20px;
+}
+.prog-one{
+    height: 100vh;
+}
 
 .prog-one h1, .prog-one h5{
     text-align:center;
@@ -354,19 +414,30 @@ body{
     font-size:30px;
 }
 
+.prog-sm-h5{
+    bottom:0;
+}
+
 .prog-one h5{
     font-family:"Exo",sans-serif;
     font-size:17px;
     color:orange;
 }
 
-.prog-lg h5{
+/*.prog-lg h5{
     font-size:2vw;
+    padding-bottom: 25vh;
+}
+*/
+
+.prog-header-lg{
+    height:1vh;
+    background-color:#000;
 }
 
 
 .download{
-    margin-top:60vh;
+    margin-top:3vh;
 }
 
 .download-btn{
@@ -396,4 +467,44 @@ body{
 .download-container{
     background-color:#000;
     border-radius:10px;
+}
+/*--------------------*/
+.skill-container-prog{
+    height:100vh;
+    background:url("../media/project.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-container-change{
+    height:100vh;
+    background:url("../media/change.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-container-code{
+    height:100vh;
+    background:url("../media/code.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-container-org{
+    height:100vh;
+    background:url("../media/org.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skill-container-sector{
+    height:100vh;
+    background:url("../media/sector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
